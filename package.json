@@ -9,7 +9,6 @@
      "restart": "pm2 restart prabah-md"
     },
   "dependencies": {
-    "@whiskeysockets/baileys": "git+https://github.com/vishwa456-rg/Baileys.git#master",  
     "@adiwajshing/keyed-db": "^0.2.4",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
