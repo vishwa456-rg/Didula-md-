@@ -4,9 +4,9 @@
     "description": "this is official site of SAHAS-MD.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name vishu-md",
-      "stop": "pm2 stop fv2web",
-     "restart": "pm2 restart vishu-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name vishut-md",
+      "stop": "pm2 stop vishut-md",
+     "restart": "pm2 restart vishut-md"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "latest",
