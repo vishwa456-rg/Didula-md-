@@ -1,15 +1,16 @@
 {
-"name": "web-pair",
+"name": "vishu-md",
     "version": "0.0.1",
-    "description": "A multi functional whatsapp bot Web paircode.",
+    "description": "this is official site of SAHAS-MD.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name prabath-md",
-      "stop": "pm2 stop prabath-md",
-     "restart": "pm2 restart prabath-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name vishu-md",
+      "stop": "pm2 stop fv2web",
+     "restart": "pm2 restart vishu-md"
     },
   "dependencies": {
-    "qrcode": "^1.5.3",
+    "@whiskeysockets/baileys": "latest",
+    "fs": "latest",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
     "phone" : "3.1.30",
@@ -17,8 +18,6 @@
     "express": "^4.18.1",
     "path": "^0.12.7",
     "megajs": "1.1.0",
-    "pm2": "^5.2.0",
-    "pastebin-js":"latest",
-    "async-mutex":"0.4.1"
+    "pm2": "^5.2.0"
    }
 }
